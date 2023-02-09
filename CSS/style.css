@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-primary: #0284c7;
+  --color-secondary: #38bdf8;
+  --color-tertiary: #0ea5e9;
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: cornflowerblue; */
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ==================================list================================================ */
+.list-inline {
+  display: inline;
+}
+
+/*===================================nav bar============================================= */
+/*nav {
+ border: 2px solid black;
+  background: var(--color-primary);
+  margin: 0.1rem;
+  padding: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}*/
+/* nav a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding-top: 5rem;
+}
+nav a:hover {
+  font-size: 1.4rem;
+  text-decoration: underline;
+} */
+/* ====================================heading============================================ */
+.header-title {
+  /* border: 2px solid black; */
+  text-align: center;
+  background: var(--color-secondary);
+  padding: 1rem;
+  /* font-size: large; */
+  color: black;
+  font-weight: bold;
+  /* margin: 0; */
+}
+/* ====================================header============================================ */
+.header {
+  /* border: 3px solid black; */
+  text-align: center;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  padding: 0.5rem;
+  /* background: var(--color-tertiary); */
+  /* border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem; */
+}
+
+.header-img {
+  padding: 0.5rem;
+  max-width: 250px;
+}
+
+/* ====================================Sample Phrase ===============================*/
+.samplePhrase {
+  text-align: center;
+  background: var(--color-primary);
+  color: white;
+  padding: 0.2rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin: 0.2rem; */
+}
+.span-sample {
+  color: black;
+}
+/* ====================================Text Area=================================== */
+
+.text-area {
+  /* background: var(--color-tertiary); */
+  /* border: 2px solid black; */
+  padding: 0.2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+textarea {
+  /* border: 3px solid black; */
+  width: 50%;
+  height: 18vh;
+  display: block;
+  /* margin: auto; */
+  padding: 1rem;
+  margin: 0.2rem auto;
+
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+/* ====================================button============================================ */
+.txt-btn {
+  display: block;
+  text-align: center;
+  margin: auto;
+  /* border: 2px solid black; */
+  padding: 0.2rem;
+}
+#btn-translate {
+  display: inline;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #164e63;
+  /* var(--color-primary); */
+  color: #f8fafc;
+  border-color: var(--color-success);
+  font-weight: bold;
+  font-size: 1rem;
+}
+#btn-translate:hover {
+  cursor: grab;
+  background: var(--color-success);
+}
+#btn-reset {
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #164e63;
+  /* var(--color-primary); */
+  color: #f8fafc;
+  border-color: var(--color-danger);
+  font-weight: bold;
+  font-size: 1rem;
+}
+#btn-reset:hover {
+  cursor: grab;
+  background: var(--color-danger);
+}
+
+/* ====================================footer============================================ */
+.footer {
+  background: var(--color-primary);
+  margin: 0.1rem;
+  padding: 1.2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+}
+.header-info {
+  /* border: 2px solid black; */
+  /* background: grey; */
+  color: black;
+  /* margin-bottom: 1rem; */
+}
+.footer .footer-header {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.footer ul {
+  padding-inline-start: 0px;
+  list-style-type: none;
+}
+.footer .link i {
+  margin: 0.5rem;
+  /* border: 2px solid var(--color-secondary); */
+  /* size: 5rem; */
+  padding: 0.3rem;
+}
+/* =============================================horizontal line============================================================== */
+hr {
+  margin: 1rem;
+}
