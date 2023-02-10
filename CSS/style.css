@@ -183,6 +183,7 @@ textarea {
   list-style-type: none;
 }
 .footer .link i {
+  color: white;
   margin: 0.5rem;
   /* border: 2px solid var(--color-secondary); */
   /* size: 5rem; */
